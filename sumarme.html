@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>De Mecánica Ligera - Sumarme</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="logo-empresa">
+                <a href="./index.html"><i class="fa-solid fa-screwdriver-wrench"></i></a>
+            </div>
+            <div class="perfil">
+                <a href="./login.html"><i class="fa-regular fa-circle-user" ></i></a>
+            </div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li> <a href="./acerca.html">Acerca de nosotros</a></li>
+                <li> <a href="./sumarme.html">Quiero brindar mis servicios</a></li>
+                <li> <a href="./faq.html">Preguntas frecuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-main">
+            <div class="formulario">
+                <form action="" method="POST">
+                    <h2>Ingresá tus datos</h2>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido">
+                    <label for="dni">Documento de identidad </label>
+                    <input type="text" name="dni" id="dni">
+                    <label for="servicio">Servicios ofrecidos:</label>
+                    <label><input type="checkbox" id="gomeria" value="gomeria" /> Servicio de Gomería</label>
+                    <label><input type="checkbox" id="bateria" value="bateria" /> Reemplazo de Batería</label>
+                    <label><input type="checkbox" id="arranque" value="arranque" /> Arranque del vehículo</label>
+                    <label><input type="checkbox" id="combustible" value="combustible" /> Provisión de Combustible en el lugar</label>
+                    <button type="submit">Enviar</button> <!-- Botón de envío -->
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Mi Sitio Web</p> <!-- Derechos de autor -->
+        </div>
+    </footer>
+</body>
+</html>

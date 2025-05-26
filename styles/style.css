@@ -1,0 +1,107 @@
+html {
+    font-size: 62.5%;    /* este es el tamaño por defecto de "1 rem" (root em)*/
+}
+ body { 
+    margin: 0;
+    font-size: 1.6rem ;
+    font-family: "Lexend", sans-serif;
+    /* min-width: 600px; */
+}
+header {
+    width: 100%;
+    background-color: orange;
+}
+.contenedor-header {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: stretch
+}
+.perfil {
+    margin-right: 0;
+    color:red;
+    font-size: 3.5vw;
+    /* border: 1px solid black; */
+    justify-items: center;
+}
+.logo-empresa {
+    color:red;
+    font-size: 3.5vw;
+    /* border: 1px solid black; */
+    justify-items: center;
+}
+/* Navegación en forma de lista horizontal */
+.menu  ul {
+    margin: 0;
+    list-style: none;          /* Elimina viñetas */
+    padding: 0;                /* Elimina relleno */
+    display: flex;             /* Activa Flexbox */
+    justify-content: center;   /* Centra los elementos horizontalmente */
+    gap: 20px;                 /* Espacio entre los ítems de la lista */
+    background-color: rgb(250, 131, 19);
+}
+.menu  ul a{
+    color: black;
+    text-decoration: none;
+}
+
+.contenedor-main {
+    display: flex;
+    flex-direction: row;
+    padding: 10;
+    width: 100%;
+    margin: 10px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    /* justify-items: center; */
+    
+}
+.formulario {
+    display: flex;
+    
+}
+/* Estilo para el formulario */
+form {
+  /* border: 1px solid black; */
+  display: flex;             /* Activa Flexbox */
+  flex-direction: column;    /* Coloca los elementos en columna */
+  gap: 10px;                 /* Espacio entre campos */
+  max-width: 400px;          /* Ancho máximo */
+  margin: 0 auto;            /* Centrado horizontal */
+}
+
+/* Tabla para las imagenes */
+.tabla-imagenes {
+    display: flex;
+    flex-direction: column; /* Para organizar las filas en una columna */
+}
+.fila-imagenes {
+    flex-grow: 1; /* Permite que las filas se ajusten al espacio disponible */
+    display: flex;
+}
+.celda_imagen {
+    flex: 1; /* Para que las columnas tengan el mismo tamaño */
+    padding: 10px; /* Añadir un poco de espacio para la presentación */
+    border: 1px solid red; /* Agregar un borde para mostrar las celdas */
+    width: 20vw;
+    /* border-radius: 20%; */
+}
+
+/* Footer */
+
+.footer-container{
+    text-align: center;
+    border: 1px solid red; /* Agregar un borde para mostrar las celdas */
+    margin-bottom: 0px;
+}
+/* media query para celulares hasta 600px */
+@media (max-width:600px) {
+
+.item-footer a {
+    text-decoration: line-through;
+}
+}
