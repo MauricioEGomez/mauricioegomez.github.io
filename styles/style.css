@@ -13,26 +13,26 @@ header {
 }
 .contenedor-header {
     display: flex;
-    flex-direction: row;
     /* border: 1px solid blue; */
     font-size: 1.2rem;
     padding-left: 30px;
     padding-right: 30px;
     justify-content: space-between;
-    align-items: stretch
 }
-.perfil {
-    margin-right: 0;
-    color:red;
-    font-size: 3.5vw;
-    /* border: 1px solid black; */
+.colores-empresa {
+    display: flex;
+    flex-direction: column;
     justify-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
 }
-.logo-empresa a{
-    font-size: 3.5vw;
+ .colores-empresa a{
     color: yellow;
-    /* border: 1px solid black; */
-    justify-items: center;
+    margin: auto;
+} 
+.letra-empresa {
+    font-size: 1.5rem;
 }
 /* Navegación en forma de lista horizontal */
 .menu  ul {
