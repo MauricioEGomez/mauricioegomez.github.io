@@ -54,7 +54,7 @@ header {
     flex-direction: row;
     padding: 10;
     width: 100%;
-    margin: 10px;
+    margin: 1rem;
     /* border: 1px solid black; */
     justify-content: space-around;
     /* justify-items: center; */
@@ -94,7 +94,9 @@ form {
 /* Footer */
 
 .footer-container{
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
     border: 1px solid red; /* Agregar un borde para mostrar las celdas */
     margin-bottom: 0px;
 }
