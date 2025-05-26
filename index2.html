@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>De Mecánica Ligera</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="colores-empresa">
+                <a href="./index.html"><i class="fa-solid fa-screwdriver-wrench"></i></a>
+                <div class="letra-empresa">De Mecánica Ligera</div> 
+            </div>
+            
+            <div class="colores-empresa">
+                <a href="./login.html"><i class="fa-regular fa-circle-user" ></i></a>
+                <div class="letra-empresa">Colaboradores</div> 
+            </div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li> <a href="./acerca.html">Acerca de nosotros</a></li>
+                <li> <a href="./faq.html">Preguntas Frecuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-main">
+            <div class="tabla">
+                <h1>Servicios Ofrecidos</h1>
+                <div class="fila">
+                    <img class="celda_imagen" src="./images/neumaticos.jpeg" alt="Gomería">
+                    <img class="celda_imagen" src="./images/arranque.jpeg" alt="Arranque de vehículo">
+                </div>
+                <div class="fila">
+                    <img class="celda_imagen" src="./images/reemplazo_bateria.jpeg" alt="Batería">
+                    <img class="celda_imagen" src="./images/combustible.jpeg" alt="Combustible">
+                </div>
+            </div>
+            <section class="formulario">
+                <form action="./confirmacion.html" method="GET">
+                    <h2>Pedí el servicio</h2>
+                    <label for="ubicacion">Ubicación:</label>
+                    <input type="text" name="ubicacion" id="ubicacion">
+                    <label for="entre-calles">Entre las calles </label>
+                    <input type="text" name="entre-calles" id="entre-calles">
+                    <label for="servicio">Servicio:</label>
+                    <select id="servicio" name="servicio">
+                        <option value="Gomería">Gomería</option>
+                        <option value="Arranque">Arranque del vehículo	</option>
+                        <option value="Combustible">Combustible</option>
+                        <option value="Batería">Batería Nueva</option>
+                    </select>
+                    <hr>
+                    <label for="cars">Marca:</label>
+                    <select id="cars" name="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <label for="color">Color:</label>
+                    <select id="color" name="color">
+                        <option value="volvo">Gris metalizado</option>
+                        <option value="saab">Gris oscuro</option>
+                        <option value="fiat">Negro</option>
+                        <option value="audi">Blanco</option>
+                        <option value="audi">Otro</option>
+                    </select>
+                    <label for="patente"> Patente: </label>
+                    <input type="text" name="patente" id="patente">
+                    <hr>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido;" id="apellido">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre;" id="nombre">
+                    <label for="celular">Tu celular:</label>
+                    <input type="text" name="celular;" id="celular">
+                    <button type="submit">Enviar</button> <!-- Botón de envío -->
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div>
+                <ul>
+                    <li> <a href="./sumarme.html">Trabajá con nosotros</a></li>
+                    <li> <a href="./faq.html">Preguntas frecuentes</a></li>
+                </ul>
+                <ul>
+                    <p>Redes sociales </p>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                </ul>
+            </div>
+            </div>
+                    <p>&copy; 2025 Mi Sitio Web</p> <!-- Derechos de autor -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

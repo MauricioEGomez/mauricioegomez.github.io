@@ -1,0 +1,117 @@
+html {
+    font-size: 62.5%;    /* este es el tamaño por defecto de "1 rem" (root em)*/
+}
+ body { 
+    margin: 0;
+    font-size: 1.6rem ;
+    font-family: "Lexend", sans-serif;
+    /* min-width: 600px; */
+}
+header {
+    width: 100%;
+    background-color: orange;
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+.contenedor-header {
+    display: flex;
+    /* border: 1px solid blue; */
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+.colores-empresa {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+ .colores-empresa a{
+    color: yellow;
+    margin: auto;
+} 
+.letra-empresa {
+    font-size: 1.5rem;
+}
+/* Navegación en forma de lista horizontal */
+.menu  ul {
+    margin: 0;
+    list-style: none;          /* Elimina viñetas */
+    padding: 0;                /* Elimina relleno */
+    display: flex;             /* Activa Flexbox */
+    justify-content: center;   /* Centra los elementos horizontalmente */
+    gap: 20px;                 /* Espacio entre los ítems de la lista */
+    background-color: rgb(250, 131, 19);
+}
+.menu  ul a{
+    color: black;
+    text-decoration: none;
+}
+
+.contenedor-main {
+    display: flex;
+    flex-direction: row;
+    padding: 10;
+    width: 100%;
+    margin: 1rem;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    /* justify-items: center; */
+    
+}
+
+#hero{
+    min-height: 100;
+    position: relative;
+}
+.pasos{
+    padding-top: 1rem; 
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+button{
+    background-color: #ffcc23;
+    font: 2rem;
+    border-color: black bold;
+    padding: 1rem;
+    border-radius: 20px;
+}
+video{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    /* mix-blend-mode: overlay; */
+
+}
+/* media query para celulares hasta 600px */
+@media (max-width:600px) {
+
+.item-footer a {
+    text-decoration: line-through;
+}
+}

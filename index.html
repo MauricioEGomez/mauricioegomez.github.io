@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style2.css">
     <title>De Mecánica Ligera</title>
 </head>
 <body>
@@ -32,83 +32,25 @@
         </nav>
     </header>
     <main>
-            <h2>Bienvenido</h2>
-            <p>Si el auto te jugó una mala pasada que tiene una solución rápida, estás en el lugar correcto</p>
-            <p>Simplemente, registrate y solicitá el servicio que necesitás</p>
-
-            <div class="contenedor-main">
-                <div class="tabla">
-                    <h1>Servicios Ofrecidos</h1>
-                    <div class="fila">
-                        <img class="celda_imagen" src="./images/neumaticos.jpeg" alt="Gomería">
-                        <img class="celda_imagen" src="./images/arranque.jpeg" alt="Arranque de vehículo">
-                    </div>
-                    <div class="fila">
-                        <img class="celda_imagen" src="./images/reemplazo_bateria.jpeg" alt="Batería">
-                        <img class="celda_imagen" src="./images/combustible.jpeg" alt="Combustible">
-                    </div>
-                </div>
-                <section class="formulario">
-                    <form action="./confirmacion.html" method="GET">
-                        <h2>Pedí el servicio</h2>
-                        <label for="ubicacion">Ubicación:</label>
-                        <input type="text" name="ubicacion" id="ubicacion">
-                        <label for="entre-calles">Entre las calles </label>
-                        <input type="text" name="entre-calles" id="entre-calles">
-                        <label for="servicio">Servicio:</label>
-                        <select id="servicio" name="servicio">
-                            <option value="Gomería">Gomería</option>
-                            <option value="Arranque">Arranque del vehículo	</option>
-                            <option value="Combustible">Combustible</option>
-                            <option value="Batería">Batería Nueva</option>
-                        </select>
-                        <hr>
-                        <label for="cars">Marca:</label>
-                        <select id="cars" name="cars">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="fiat">Fiat</option>
-                            <option value="audi">Audi</option>
-                        </select>
-                        <label for="color">Color:</label>
-                        <select id="color" name="color">
-                            <option value="volvo">Gris metalizado</option>
-                            <option value="saab">Gris oscuro</option>
-                            <option value="fiat">Negro</option>
-                            <option value="audi">Blanco</option>
-                            <option value="audi">Otro</option>
-                        </select>
-                        <label for="patente"> Patente: </label>
-                        <input type="text" name="patente" id="patente">
-                        <hr>
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" name="apellido;" id="apellido">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" name="nombre;" id="nombre">
-                        <label for="celular">Tu celular:</label>
-                        <input type="text" name="celular;" id="celular">
-                        <button type="submit">Enviar</button> <!-- Botón de envío -->
-                    </form>
-                </section>
+        <div id="hero">
+            <div class="pasos">
+                <p>Si el auto te jugó una mala pasada pero tiene una solución rápida</p>
+                <p>¡Entonces estás en el lugar correcto!</p>
+                <ol>
+                    <li>Solicitá el servicio que necesitás completando el formulario</li>
+                    <li>Elegís una de las opciones que te presentamoscon sus tiempos de respuesta</li>
+                    <li>Te confirmamos que estamos para ir</li>
+                    <li>Pagás</li>
+                    <li>Y vamos para allá</li>
+                </ol>
+                <a href="./index2.html"><button>VAMOS</button></a>
             </div>
-    </main>
-    <footer>
-        <div class="footer-container">
-            <div>
-                <ul>
-                    <li> <a href="./sumarme.html">Trabajá con nosotros</a></li>
-                    <li> <a href="./faq.html">Preguntas frecuentes</a></li>
-                </ul>
-                <ul>
-                    <p>Redes sociales </p>
-                    <li><i class="fa-brands fa-instagram"></i></li>
-                    <li><i class="fa-brands fa-facebook"></i></li>
-                </ul>
-            </div>
-            </div>
-                    <p>&copy; 2025 Mi Sitio Web</p> <!-- Derechos de autor -->
-            </div>
+            <video autoplay muted>
+                <source src="./images/neumatico.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="capa"> </div>
         </div>
-    </footer>
+    </main>
 </body>
 </html>
