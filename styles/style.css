@@ -11,6 +11,12 @@ header {
     width: 100%;
     background-color: orange;
 }
+
+main {
+    padding: 5rem;
+    width: 100%;
+    /* background-color: orange; */
+}
 .contenedor-header {
     display: flex;
     /* border: 1px solid blue; */
@@ -56,7 +62,7 @@ header {
     width: 100%;
     margin: 1rem;
     /* border: 1px solid black; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* justify-items: center; */
     
 }
@@ -70,24 +76,25 @@ form {
   display: flex;             /* Activa Flexbox */
   flex-direction: column;    /* Coloca los elementos en columna */
   gap: 10px;                 /* Espacio entre campos */
-  max-width: 400px;          /* Ancho máximo */
+  /* max-width: 600px;          Ancho máximo */
   margin: 0 auto;            /* Centrado horizontal */
 }
 
 /* Tabla para las imagenes */
-.tabla-imagenes {
+/* .tabla-imagenes {
     display: flex;
     flex-direction: column; /* Para organizar las filas en una columna */
-}
-.fila-imagenes {
+
+.imagenes-servicios {
     flex-grow: 1; /* Permite que las filas se ajusten al espacio disponible */
     display: flex;
+    flex-direction: column;
 }
 .celda_imagen {
     flex: 1; /* Para que las columnas tengan el mismo tamaño */
     padding: 10px; /* Añadir un poco de espacio para la presentación */
     border: 1px solid red; /* Agregar un borde para mostrar las celdas */
-    width: 20vw;
+    width: 20rem;
     /* border-radius: 20%; */
 }
 
@@ -95,19 +102,28 @@ form {
 
 .footer-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style: none;
-    border: 1px solid red; /* Agregar un borde para mostrar las celdas */
+    background-color: hsl(36, 100%, 78%);
+    /*border: 1px solid red; /* Agregar un borde para mostrar las celdas */
     margin-bottom: 0px;
 }
 .footer-container a {
-       text-decoration: none;
-       color: black;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
 }
+.redes{
+    display: flex;
+
+}
+
 /* media query para celulares hasta 600px */
 @media (max-width:600px) {
 
 .item-footer a {
     text-decoration: line-through;
+    
 }
 }
