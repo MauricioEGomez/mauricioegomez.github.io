@@ -28,9 +28,9 @@ header {
     /* border: 1px solid black; */
     justify-items: center;
 }
-.logo-empresa {
-    color:red;
+.logo-empresa a{
     font-size: 3.5vw;
+    color: yellow;
     /* border: 1px solid black; */
     justify-items: center;
 }
@@ -99,6 +99,10 @@ form {
     list-style: none;
     border: 1px solid red; /* Agregar un borde para mostrar las celdas */
     margin-bottom: 0px;
+}
+.footer-container a {
+       text-decoration: none;
+       color: black;
 }
 /* media query para celulares hasta 600px */
 @media (max-width:600px) {
