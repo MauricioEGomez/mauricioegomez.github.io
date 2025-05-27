@@ -5,7 +5,6 @@ html {
     margin: 0;
     font-size: 1.6rem ;
     font-family: "Lexend", sans-serif;
-    /* min-width: 600px; */
 }
 /* ----------------------------------------------------------------------------------------- */
 /* ---------------------------------------- HEADER ------------------------------------------*/
@@ -53,7 +52,7 @@ header {
     text-decoration: none;
 }
 /* ----------------------------------------------------------------------------------------- */
-/* ------------------------------------------ MAIN ------------------------------------------*/
+/* ---------------------------------------- MAIN --------------------------------------------*/
 /* ----------------------------------------------------------------------------------------- */
 main {
     padding: 2rem;
@@ -111,19 +110,29 @@ form {
   margin: 0 auto;            /* Centrado horizontal */
 }
 
-/* Footer */
-footer {
+/* ----------------------------------------------------------------------------------------- */
+/* ---------------------------------------- FOOTER ------------------------------------------*/
+/* ----------------------------------------------------------------------------------------- */
+ footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 2rem;
-    width: 90%;
-}
-.redes li {
+} 
+ .redes ul{   
+    margin: 0;
     list-style: none;          /* Elimina viñetas */
-    font-size: 3rem;
+    display: flex;             /* Activa Flexbox */
+    justify-content: center;   
+    gap: 2rem;                 /* Espacio entre los ítems de la lista */
+    background-color: white;
 }
-
+ .redes li {
+    margin: 0;
+    list-style: none;          
+    font-size: 2.5rem;
+} 
+.copyright {
+    text-align: center;
+} 
 /* ----------------------------------------------------------------------------------------- */
 /* -------------------------------MEDIA QUERY PARA PCs ------------------------------------- */
 /* media query para pantallas más grandes que la de un celular en vertical (más de 600px) */
@@ -149,5 +158,4 @@ footer {
     color: black;
     text-align: justify;
 }
-
 }
