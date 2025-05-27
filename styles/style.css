@@ -12,11 +12,7 @@ header {
     background-color: orange;
 }
 
-main {
-    padding: 2rem;
-    width: 90%;
-    /* background-color: orange; */
-}
+
 .contenedor-header {
     display: flex;
     /* border: 1px solid blue; */
@@ -55,40 +51,33 @@ main {
     text-decoration: none;
 }
 
+/* --------------------------- MAIN ---------------------------*/
+main {
+    padding: 2rem;
+    width: 90%;
+}
 .contenedor-main {
     display: flex;
-    padding: 2rem;
     width: 100%;
-    margin: 1rem;
-    justify-content: center;
-    /* border: 1px solid black; */
+    border: 1px solid black;
  }
 
 /* Tabla para las imagenes */
-
-.cuadro-servicios {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1; /* Permite que las filas se ajusten al espacio disponible */
-    border: 5px solid blue; /* Agregar un borde para mostrar las celdas */
-
-}
 .celda-imagen {
-    display: flex;
-    flex-direction: column;
-    padding: 10px; /* Añadir un poco de espacio para la presentación */
-    border: 10px solid red; /* Agregar un borde para mostrar las celdas */
-    width: 20px;
-    /* border-radius: 20%; */
+    /* display: flex; */
+     align-items: ;  
+    margin-bottom: 1rem;
 }
 .imagen-servicio {
-    display: flex;
-    flex-direction: column;
-    padding: 10px; /* Añadir un poco de espacio para la presentación */
-    border: 10px solid red; /* Agregar un borde para mostrar las celdas */
-    width: 20rem;
+      width: 20rem; /* Ajusta según la necesidad */
+      height: auto;
+      margin-right: 20px; /* Espaciado entre la imagen y el texto */
     /* border-radius: 20%; */
 }
+.titulo-servicio {
+    text-align: justify;
+}
+
 
 /* Estilo para el formulario */
 .formulario {
@@ -106,31 +95,36 @@ form {
 }
 
 /* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
 
-.footer-container{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    background-color: hsl(36, 100%, 78%);
-    /*border: 1px solid red; /* Agregar un borde para mostrar las celdas */
-    margin-bottom: 0px;
+    padding: 2rem;
+    width: 90%;
 }
-.footer-container a {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    color: black;
-}
-.redes{
-    display: flex;
+.redes li {
+    list-style: none;          /* Elimina viñetas */
+    font-size: 3rem;
 
 }
+/* ----------------------------------------------------------------------------------- */
 
 /* media query para celulares hasta 600px */
-@media (max-width:600px) {
-
-.item-footer a {
-    text-decoration: line-through;
-    
+@media (min-width:601px) {
+.celda-imagen {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 1rem;
 }
+.imagen-servicio {
+      width: 200px; /* Ajusta según la necesidad */
+      height: auto;
+      margin-right: 20px; /* Espaciado entre la imagen y el texto */
+    /* border-radius: 20%; */
+}
+.titulo-servicio {
+    text-align: justify;
+}
+
 }
