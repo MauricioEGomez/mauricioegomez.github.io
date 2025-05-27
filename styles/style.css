@@ -13,8 +13,8 @@ header {
 }
 
 main {
-    padding: 5rem;
-    width: 100%;
+    padding: 2rem;
+    width: 90%;
     /* background-color: orange; */
 }
 .contenedor-header {
@@ -57,45 +57,52 @@ main {
 
 .contenedor-main {
     display: flex;
-    flex-direction: row;
-    padding: 10;
+    padding: 2rem;
     width: 100%;
     margin: 1rem;
+    justify-content: center;
     /* border: 1px solid black; */
-    /* justify-content: space-around; */
-    /* justify-items: center; */
-    
-}
-.formulario {
-    display: flex;
-    
-}
-/* Estilo para el formulario */
-form {
-  /* border: 1px solid black; */
-  display: flex;             /* Activa Flexbox */
-  flex-direction: column;    /* Coloca los elementos en columna */
-  gap: 10px;                 /* Espacio entre campos */
-  /* max-width: 600px;          Ancho máximo */
-  margin: 0 auto;            /* Centrado horizontal */
-}
+ }
 
 /* Tabla para las imagenes */
-/* .tabla-imagenes {
-    display: flex;
-    flex-direction: column; /* Para organizar las filas en una columna */
 
-.imagenes-servicios {
-    flex-grow: 1; /* Permite que las filas se ajusten al espacio disponible */
+.cuadro-servicios {
     display: flex;
     flex-direction: column;
+    flex-grow: 1; /* Permite que las filas se ajusten al espacio disponible */
+    border: 5px solid blue; /* Agregar un borde para mostrar las celdas */
+
 }
-.celda_imagen {
-    flex: 1; /* Para que las columnas tengan el mismo tamaño */
+.celda-imagen {
+    display: flex;
+    flex-direction: column;
     padding: 10px; /* Añadir un poco de espacio para la presentación */
-    border: 1px solid red; /* Agregar un borde para mostrar las celdas */
+    border: 10px solid red; /* Agregar un borde para mostrar las celdas */
+    width: 20px;
+    /* border-radius: 20%; */
+}
+.imagen-servicio {
+    display: flex;
+    flex-direction: column;
+    padding: 10px; /* Añadir un poco de espacio para la presentación */
+    border: 10px solid red; /* Agregar un borde para mostrar las celdas */
     width: 20rem;
     /* border-radius: 20%; */
+}
+
+/* Estilo para el formulario */
+.formulario {
+    /* border: double violet; */
+    align-items: center;
+    min-width: 300px;
+}
+form {
+  /* border: 5cap solid black; */
+  display: flex;             /* Activa Flexbox */
+  flex-direction: column;    /* Coloca los elementos en columna */
+  gap: 1rem;                 /* Espacio entre campos */
+  /* max-width: 600px;          Ancho máximo */
+  margin: 0 auto;            /* Centrado horizontal */
 }
 
 /* Footer */
