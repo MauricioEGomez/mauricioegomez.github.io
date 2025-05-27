@@ -16,13 +16,7 @@
     position: relative;
     z-index: 2;
 }
-button{
-    background-color: #ffcc23;
-    font: 2rem;
-    border-color: black bold;
-    padding: 1rem;
-    border-radius: 20px;
-}
+
 video{
     position: absolute;
     top:0;

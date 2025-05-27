@@ -55,6 +55,7 @@ header {
 /* ---------------------------------------- MAIN --------------------------------------------*/
 /* ----------------------------------------------------------------------------------------- */
 main {
+    /* display:flex; */ */
     padding: 2rem;
     width: 90%;
 }
@@ -94,7 +95,15 @@ main {
   padding: 20px;
   position: relative; /* Para que el texto esté encima de la imagen */
 }
-
+button{
+    justify-content: center;   /* Centra los elementos horizontalmente */
+    background-color: #ffcc23;
+    font: 2rem;
+    border-color: black bold;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
 /* Estilo para el formulario */
 .formulario {
     /* border: double violet; */
