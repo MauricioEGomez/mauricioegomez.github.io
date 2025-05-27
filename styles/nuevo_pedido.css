@@ -1,0 +1,25 @@
+/* Estilo para el formulario */
+.formulario {
+    /* border: double violet; */
+    align-items: center;
+    min-width: 300px;
+}
+form {
+  display: flex;             /* Activa Flexbox */
+  flex-direction: column;    /* Coloca los elementos en columna */
+  gap: 1rem;                 /* Espacio entre campos */
+  margin: 0 auto;            /* Centrado horizontal */
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* -------------------------------MEDIA QUERY PARA PCs ------------------------------------- */
+/* media query para pantallas más grandes que la de un celular en vertical (más de 600px) */
+/* ----------------------------------------------------------------------------------------- */
+
+@media (min-width:601px) {
+.formulario {
+    /* border: double violet; */
+    margin: 0 auto;            /* Centrado horizontal */
+    max-width: 500px;
+}
+}
