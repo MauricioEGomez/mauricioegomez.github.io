@@ -55,7 +55,7 @@ header {
 /* ---------------------------------------- MAIN --------------------------------------------*/
 /* ----------------------------------------------------------------------------------------- */
 main {
-    /* display:flex; */ */
+    /* display:flex; */ 
     padding: 2rem;
     width: 90%;
 }
@@ -155,9 +155,9 @@ form {
 }
 .imagen-servicio {
     position: relative;
-      width: 200px; /* Ajusta según la necesidad */
+      width: 20rem; /* Ajusta según la necesidad */
       height: auto;
-      margin-right: 20px; /* Espaciado entre la imagen y el texto */
+      margin-right: 2rem; /* Espaciado entre la imagen y el texto */
     /* border-radius: 20%; */
 }
 .capa {
