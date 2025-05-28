@@ -104,6 +104,15 @@ button{
     padding: 1rem;
     border-radius: 20px;
 }
+.boton-pedido{
+    position: fixed;
+    right:5%;
+    bottom: 3%;
+    font: 2rem;
+    border: 0 none;
+    /* border-color: black; */
+    border-radius: 20px;
+}
 /* Estilo para el formulario */
 .formulario {
     /* border: double violet; */
