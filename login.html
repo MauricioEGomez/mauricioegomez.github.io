@@ -34,8 +34,8 @@
             
             <!-- <form action="https://formspree.io/f/mdkgnpov" method="GET"> -->
             <form action="./confirmacion.html" method="GET">
-                <label>Tu Celular:
-                    <input type="text" name="celular" id="">
+                <label>Tu Celular (cód. área + número):
+                    <input type="tel" name="celular" id="celular" pattern="[0-9]{10}" minlength="10" maxlength="10" required>
                 </label>
                 <button type="submit">Enviar</button>
             </form>
