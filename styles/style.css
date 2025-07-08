@@ -1,0 +1,191 @@
+html {
+    font-size: 62.5%;    /* este es el tamaño por defecto de "1 rem" (root em)*/
+}
+
+body {
+  font-family: "Menbere", sans-serif;
+  background-color: rgb(182, 182, 180);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: orange;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    margin: 0;
+}
+header .leitmotiv {
+    font-size: 2rem;
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+}
+.imgLogo {
+    height: 14rem;
+}
+.letra-empresa {
+    font-size: 5rem;
+    color: rgb(2, 2, 156);
+}
+
+main {
+  display: grid;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.5rem;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8e302;
+  width: 100%;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding-bottom: 10px;
+  z-index: 1000;
+}
+
+.nav-link {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+#carrito-contador {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Botones del carrito */
+.botones-carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.botones-carrito button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#vaciar {
+  background-color: #dc3545;
+  color: white;
+}
+
+#finalizar {
+  background-color: #28a745;
+  color: white;
+}
+
+.botones-carrito a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.botones-carrito a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------tarjeta -------------------- */
+.card {
+  background: rgb(221, 221, 221);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  width: 22rem;
+  height: 36rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  color: #333;
+  margin: 0 0 8px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.precio {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.card button {
+  margin-top: 2rem;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #a0c3e7;
+  color: rgb(69, 67, 232);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card button:hover {
+  background-color: #125ea8;
+  color: rgb(248, 248, 247);
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* ---------------------------------------- FOOTER ------------------------------------------*/
+/* ----------------------------------------------------------------------------------------- */
+ footer {
+    display: flex;
+    flex-direction: column;
+} 
+ .redes ul{   
+    margin: 0;
+    list-style: none;          /* Elimina viñetas */
+    display: flex;             /* Activa Flexbox */
+    justify-content: center;   
+    gap: 2rem;                 /* Espacio entre los ítems de la lista */
+    background-color: #f8e302;
+}
+ .redes li {
+    margin: 0;
+    list-style: none;          
+    font-size: 2.5rem;
+} 
+.copyright {
+    text-align: center;
+} 
